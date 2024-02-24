@@ -1,0 +1,28 @@
+.article-section .ptc-student{
+  margin: 2rem 0rem;
+  width: 50%;
+}
+.site-main .ptc-student img {
+   width: 18.75rem;
+}
+
+.ptc-student .entry-header .entry-title a:visited {
+color: blue;
+}
+
+.ptc-student .entry-content .wp-block-button .wp-element-button {
+  color: #fff;
+}
+
+@media(min-width: 37.5rem){
+
+  .article-section{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .article-section .ptc-student .entry-content p {
+    width: 350px
+  }
+}

@@ -1,0 +1,18 @@
+.site-main .schedule-table {
+  border-radius: 0.625rem;
+  padding: 1rem;
+}
+
+.site-main .schedule-table .schedule-thead {
+  background-color: blue;
+  border-radius: 0.625rem;
+  color: aliceblue;
+  width: max-content;
+}
+
+.site-main .schedule-table .schedule-body tr td {
+  border: 0.0625rem solid blue;
+  padding: 0.5rem;
+  border-radius: 3px;
+  margin-bottom: 8px;
+}

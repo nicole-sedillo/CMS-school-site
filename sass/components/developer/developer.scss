@@ -1,0 +1,17 @@
+.developer-post {
+@include student-post
+}
+
+.site-main .ptc-student {
+  width: 31.25rem;
+  height: 25rem;
+  margin: 2rem;
+}
+
+.site-main .ptc-student header h2 a {
+   @include student-link
+}
+.site-main .ptc-student header h2 a:hover {
+   color: lightblue
+}
+.site-main .ptc-student header h2 a {}

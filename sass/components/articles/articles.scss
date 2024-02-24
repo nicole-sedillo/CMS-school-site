@@ -1,0 +1,28 @@
+.site-main .aos-post .post {
+  border: 1px solid blue;
+  background-color: lightskyblue;
+  padding: 1rem;
+  border-radius: 3px;
+  width: 100%;
+}
+
+.widget-area {
+  background-color: rgb(135, 206, 250, 0.2);
+  padding: 1rem;
+}
+
+.wp-block-archives-list, .wp-block-categories-list {
+   list-style: none;
+}
+
+@media(min-width:37.5rem){
+
+  .site-main .aos-post .post {
+   display: flex;
+   flex-direction: column;
+   justify-self: center;
+   align-items: center; 
+   margin: 1.5rem auto;
+   width: 70%;
+  }
+}

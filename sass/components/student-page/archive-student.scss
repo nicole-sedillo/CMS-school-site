@@ -1,0 +1,33 @@
+.site-main {
+  // background-color: lightskyblue;
+  //    display: flex;
+  //    flex-direction: column;
+}
+
+.blog-section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: start;
+  column-gap: 7rem;
+}
+
+.blog-article {
+  width: 12.5rem;
+  margin-bottom: 3rem;
+  background-color: lightskyblue;
+  padding: 1rem;
+  border-radius: 0.1875rem;
+}
+
+.blog-article a {
+   text-align: center;
+   color: blue;
+}
+.blog-article a:visited {
+   color: blue;
+}
+
+.blog-article p {
+}
